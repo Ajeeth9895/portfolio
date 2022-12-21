@@ -122,11 +122,13 @@
 }
 
 .card-box{
-  width: 10em;
+  width: 5em;
   height: 30em;
   background-color: #171F38;
-  /* border: 1px solid yellow; */
+  border: 1px solid yellow;
   border-radius: 1em;
+  transition: height 2s;
+  transition-timing-function:ease-in-out;
 }
 
 .proj-hd{
@@ -145,9 +147,14 @@
 
 .proj-button{
   display:none;
+  text-align: center;
 }
 
-.proj-button:hover{
+.card-box:hover{
+  height: 32em;
+}
+
+.card-box:hover .proj-button{
   display:block;
 }
 
