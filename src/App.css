@@ -1,0 +1,153 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.home{
+ width: 100%;
+ background-size: cover;
+ background-color:#0E1630;
+ background-repeat: no-repeat;
+ background-position: center;
+ scroll-behavior: smooth;
+}
+
+
+.navbar-collapse{
+  justify-content: flex-end;
+}
+
+.navbar{
+  color:white;
+  font-weight: 500;
+}
+
+.navlist{
+  color:#808DAD ;
+}
+
+.navigation{
+  position: fixed;
+  background-color:#0E1630 ;
+}
+
+.me-auto{
+  margin-left: 40rem;
+  gap: 4rem;
+  color: white;
+}
+
+.fg-theme{
+  color: red;
+}
+
+.caption-header{
+  margin-top: 10em;
+  margin-left: 5rem;
+  color:white;
+}
+
+.home-hd{
+  font-size: 2em;
+}
+.name-hd{
+  color: #04A950;
+}
+
+#home h2{
+  font-size: 3.5em;
+}
+
+
+#about{
+  display: block;
+  width: 100%;
+  margin-top: 20em;
+}
+
+.about-title{
+  color: #04A950;
+  background-color: #171F38;
+  border-bottom-right-radius:1em;
+  border-top-left-radius:1em;
+}
+
+.theme-list{
+  color: white;
+}
+
+.color-white{
+  color: white;
+}
+
+.color-blue{
+  color:#808DAD;
+}
+
+.color-green{
+  color: #04A950;
+}
+
+.fw-normal{
+  color: #04b054;
+  background-color: #171F38;
+  text-align: center;
+  height: 1.5em;
+  width: 10em;
+  border-radius: 20px;
+}
+
+.skill-details{
+  color: #04A950;
+  background-color: #171F38;
+  border-bottom-right-radius:1em;
+  border-top-left-radius:1em;
+  font-size: 1.8em;
+  margin-top: 5em;
+}
+
+.progress-wrapper{
+  margin-top: 3em;
+}
+
+.project-details{
+  color: #04A950;
+  background-color: #171F38;
+  border-bottom-right-radius:1em;
+  border-top-left-radius:1em;
+  font-size: 1.8em;
+  margin-top: 5em;
+}
+
+.card-box{
+  width: 10em;
+  height: 30em;
+  background-color: #171F38;
+  /* border: 1px solid yellow; */
+  border-radius: 1em;
+}
+
+.proj-hd{
+  color:#01D293;
+  font-size: 1.5em;
+  text-align: center;
+  margin: 5px;
+  border-radius: 16px;
+}
+
+.proj-img{
+  width: 20em;
+  height: 20em;
+  border-radius: 10px;
+}
+
+.proj-button{
+  display:none;
+}
+
+.proj-button:hover{
+  display:block;
+}
+
