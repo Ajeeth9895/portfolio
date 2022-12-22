@@ -99,13 +99,15 @@
   border-radius: 20px;
 }
 
+
+
 .skill-details{
   color: #04A950;
   background-color: #171F38;
   border-bottom-right-radius:1em;
   border-top-left-radius:1em;
   font-size: 1.8em;
-  margin-top: 5em;
+  margin-top: 8em;
 }
 
 .progress-wrapper{
@@ -122,8 +124,7 @@
 }
 
 .card-box{
-  width: 5em;
-  height: 30em;
+  height: 25em;
   background-color: #171F38;
   border: 1px solid yellow;
   border-radius: 1em;
@@ -140,9 +141,9 @@
 }
 
 .proj-img{
-  width: 20em;
-  height: 20em;
-  border-radius: 10px;
+  width: 12em;
+  height: 12em;
+  margin: 2px;
 }
 
 .proj-button{
@@ -151,10 +152,53 @@
 }
 
 .card-box:hover{
-  height: 32em;
+  height: 27em;
 }
 
 .card-box:hover .proj-button{
   display:block;
 }
 
+.contact-hd{
+  color: #04A950;
+  background-color: #171F38;
+  border-bottom-right-radius:1em;
+  border-top-left-radius:1em;
+  font-size: 1.8em;
+  margin-top: 5em;
+}
+
+.contact-info{
+  width: 100%;
+  height: 15em;
+  margin-top: 2em;
+  background-color: #171F38 ;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.mobile-details{
+  font-size: 1em;
+  color: white;
+  margin-left: 1.2em;
+}
+
+.mail-details{
+  font-size: 1em;
+  color: white;
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
+
+.img-details{
+  width: 1.5em;
+  height: 1.5em;
+  margin: 1em;
+}
+
+.media-link img:hover{
+  box-shadow: 1px 1px 1.1em gray;
+}

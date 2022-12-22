@@ -28,7 +28,7 @@ function Navigation() {
               <Nav.Link href="#Projects" style={{ color: "#808DAD" }}>
                 Project
               </Nav.Link>
-              <Nav.Link href="#action4" style={{ color: "#808DAD" }}>
+              <Nav.Link href="#contact" style={{ color: "#808DAD" }}>
                 Contact
               </Nav.Link>
             </Nav>

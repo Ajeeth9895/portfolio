@@ -13,7 +13,7 @@ function Projects() {
           <div class="project-details">Projects</div>
         </div>
         <div class="row post-grid d-flex justify-content-center ">
-          <div class="col-md-6 col-lg-3 card-box my-5 mx-4">
+          <div class="col-md-6 col-lg-2 card-box my-5 mx-4">
             <div class="proj-hd">Pokemon</div>
             <div class="d-flex justify-content-center my-5">
               <img src={Pokemon} className="proj-img" alt="" />
@@ -36,7 +36,7 @@ function Projects() {
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-3 card-box my-5 mx-4">
+          <div class="col-md-6 col-lg-2 card-box my-5 mx-4">
             <div class="proj-hd">Weather</div>
             <div class="d-flex justify-content-center my-5">
               <img src={weather} className="proj-img" alt="" />
@@ -59,7 +59,7 @@ function Projects() {
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-3 card-box my-5 mx-4">
+          <div class="col-md-6 col-lg-2  card-box my-5 mx-4">
             <div class="proj-hd">Postal code</div>
             <div class="d-flex justify-content-center my-5">
               <img src={Postalcode} className="proj-img" alt="" />
