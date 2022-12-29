@@ -1,11 +1,14 @@
 import React from "react";
-import Email from "../Asset/img/email.png"
-import Github from "../Asset/img/github.png"
+import Instagram from "../Asset/img/instagram.png"
+import Github from "../Asset/img/github.png";
 import linkedin from "../Asset/img/linkedin.png";
 import { CodeUrl } from "./CodeUrl";
 
+
 function Contact() {
   return (
+//  <--Contact page details--> 
+
     <div className="container-fluid" id="contact">
       <div className="text-center contact-hd">Contact</div>
       <div className=" contact-info">
@@ -22,15 +25,25 @@ function Contact() {
             ajeethkumar.gopal@gmail.com
           </div>
         </div>
+         {/* <--Media link details-->  */}
         <div className="social-media col-md-6 col-lg-3 ">
           <h4 className="color-blue">Get in touch</h4>
-          <div className="media-link" >
-          <a href={CodeUrl.gmail} target={CodeUrl.blank}><img src={Email}  className="img-details" alt="" /></a>
-          <img src={Github} className="img-details" alt="" />
-          <img src={linkedin}  className="img-details" alt="" />
+          <div className="media-link">
+            <a href={CodeUrl.instagram} target={CodeUrl.blank}>
+              <img src={Instagram} className="img-details" alt="" />
+            </a>
+            <a href={CodeUrl.githubUrl} target={CodeUrl.blank}>
+              <img src={Github} className="img-details" alt="" />
+            </a>
+            <a href={CodeUrl.linkedinUrl} target={CodeUrl.blank}>
+              <img src={linkedin} className="img-details" alt="" />
+            </a>
           </div>
         </div>
       </div>
+      <div>
+          &nbsp;
+        </div>
     </div>
   );
 }

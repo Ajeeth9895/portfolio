@@ -3,6 +3,7 @@ import Resume from "../Asset/cv/Resume.pdf";
 
 function Home() {
   return (
+        // <--Home page details-->  
     <div className="d-flex justify-content-center " id="home">
       <div className="caption-header">
         <div className="home-hd">Welcome!</div>

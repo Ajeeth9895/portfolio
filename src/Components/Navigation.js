@@ -3,17 +3,18 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 
 function Navigation() {
   return (
+      //  <--Navigation details--> 
     <div className="navigation container-fluid">
       <Navbar bg="#0E1630" expand="lg">
         <Container fluid>
-          <Navbar.Brand href="#" style={{ color: "white", fontSize: "2em" }}>
+          <Navbar.Brand style={{ color: "white", fontSize: "2em" }}>
             <span className="color-green">A</span>jeeth
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
-              className="me-auto my-2 my-lg-0"
-              style={{ maxHeight: "100px" }}
+              className="my-2 my-lg-0"
+              style={{ maxHeight: "10em", gap:"3em" }}
               navbarScroll
             >
               <Nav.Link href="#home" style={{ color: "#808DAD" }}>

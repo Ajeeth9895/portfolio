@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
   return (
-    
+    //  <--About page details--> 
     <div className="container-fluid py-5" id="about">
       <h2 className="d-flex justify-content-center about-title my-5">About</h2>
       &nbsp;
@@ -33,6 +33,7 @@ function About() {
           </ul>
         </div>
       </div>
+      {/* <--Education details-->  */}
       <div className="container pt-5">
         <div className="row ">
           <div className="col-md-6 color-white">
@@ -61,6 +62,8 @@ function About() {
               </li>
             </ul>
           </div>
+
+           {/* <--Experience details-->  */}
           <div
             className="col-md-6 wow fadeInRight color-white"
             data-wow-delay="200ms"

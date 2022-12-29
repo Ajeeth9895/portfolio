@@ -3,8 +3,9 @@ import { ProgressBar } from 'react-bootstrap';
 
 function Skill() {
   return (
-    <div className="vg-page page-portfolio" id="Skills">
-    <div className="container col-lg-12">
+      // <--Skill page details--> 
+    <div className=" container-fluid py-1"id="Skills">
+    <div className=" col-lg-12">
         <h1 className="d-flex justify-content-center skill-details">My Skill's</h1>
         <div className="row py-3">
           <div className="col-md-6">

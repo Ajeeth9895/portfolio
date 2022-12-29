@@ -9,6 +9,7 @@ import Contact from "./Components/Contact";
 function App() {
   return (
     <div className="home">
+     {/* <--Used component for all the pages-->  */}
       <Navigation/>
       <Home/>
       <About/>

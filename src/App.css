@@ -14,7 +14,7 @@
  scroll-behavior: smooth;
 }
 
-
+/* Navigation  */
 .navbar-collapse{
   justify-content: flex-end;
 }
@@ -31,6 +31,8 @@
 .navigation{
   position: fixed;
   background-color:#0E1630 ;
+  transition: 0.2s;
+  box-shadow: 1px 1px 1.1em orangered;
 }
 
 .me-auto{
@@ -39,6 +41,7 @@
   color: white;
 }
 
+/* Home Page design */
 .fg-theme{
   color: red;
 }
@@ -61,6 +64,7 @@
 }
 
 
+/* About page design */
 #about{
   display: block;
   width: 100%;
@@ -70,6 +74,7 @@
 .about-title{
   color: #04A950;
   background-color: #171F38;
+  border: 1px solid  #04A950;
   border-bottom-right-radius:1em;
   border-top-left-radius:1em;
 }
@@ -93,6 +98,7 @@
 .fw-normal{
   color: #04b054;
   background-color: #171F38;
+  border: 1px solid  #04A950;
   text-align: center;
   height: 1.5em;
   width: 10em;
@@ -100,23 +106,27 @@
 }
 
 
-
+/* Skill page design */
 .skill-details{
   color: #04A950;
   background-color: #171F38;
+  border: 1px solid  #04A950;
   border-bottom-right-radius:1em;
   border-top-left-radius:1em;
   font-size: 1.8em;
-  margin-top: 8em;
+  margin-top:5em;
 }
 
 .progress-wrapper{
   margin-top: 3em;
 }
 
+
+/* Project page design */
 .project-details{
   color: #04A950;
   background-color: #171F38;
+  border: 1px solid  #04A950;
   border-bottom-right-radius:1em;
   border-top-left-radius:1em;
   font-size: 1.8em;
@@ -152,16 +162,19 @@
 }
 
 .card-box:hover{
-  height: 27em;
+  height: 26em;
 }
 
 .card-box:hover .proj-button{
   display:block;
 }
 
+
+/* Contact page design*/
 .contact-hd{
   color: #04A950;
   background-color: #171F38;
+  border: 1px solid  #04A950;
   border-bottom-right-radius:1em;
   border-top-left-radius:1em;
   font-size: 1.8em;
@@ -173,6 +186,7 @@
   height: 15em;
   margin-top: 2em;
   background-color: #171F38 ;
+  border: 1px solid yellow;
   border-radius: 10px;
   display: flex;
   justify-content: space-around;
