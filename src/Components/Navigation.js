@@ -24,10 +24,10 @@ function Navigation() {
                 About
               </Nav.Link>
               <Nav.Link href="#Skills" style={{ color: "#808DAD" }}>
-                Skill
+                Skills
               </Nav.Link>
               <Nav.Link href="#Projects" style={{ color: "#808DAD" }}>
-                Project
+                Projects
               </Nav.Link>
               <Nav.Link href="#contact" style={{ color: "#808DAD" }}>
                 Contact

@@ -1,12 +1,13 @@
 import React from 'react';
 import { ProgressBar } from 'react-bootstrap';
 
+
 function Skill() {
   return (
       // <--Skill page details--> 
     <div className=" container-fluid py-1"id="Skills">
     <div className=" col-lg-12">
-        <h1 className="d-flex justify-content-center skill-details">My Skill's</h1>
+        <h1 className="d-flex justify-content-center skill-details">My Skills</h1>
         <div className="row py-3">
           <div className="col-md-6">
             <div className="px-lg-3">
@@ -23,7 +24,7 @@ function Skill() {
                 <ProgressBar variant="success" animated  now={70} label={'70%'}/>
                 </div>
               </div>
-              <div className="progress-wrapper">
+              <div className="progress-wrapper"> 
                 <span className="color-blue">HTML</span>
                 <div>
                 <ProgressBar variant="success" animated  now={70} label={'70%'}/>

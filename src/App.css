@@ -41,6 +41,10 @@
   color: white;
 }
 
+button.navbar-toggler, button.navbar-toggler.collapsed{
+  background-color:#28324e;
+}
+
 /* Home Page design */
 .fg-theme{
   color: red;
