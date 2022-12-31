@@ -1,195 +1,191 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-
-.home{
- width: 100%;
- background-size: cover;
- background-color:#0E1630;
- background-repeat: no-repeat;
- background-position: center;
- scroll-behavior: smooth;
+.home {
+  width: 100%;
+  background-size: cover;
+  background-color: #0e1630;
+  background-repeat: no-repeat;
+  background-position: center;
+  scroll-behavior: smooth;
 }
 
 /* Navigation  */
-.navbar-collapse{
+.navbar-collapse {
   justify-content: flex-end;
 }
 
-.navbar{
-  color:white;
+.navbar {
+  color: white;
   font-weight: 500;
 }
 
-.navlist{
-  color:#808DAD ;
+.navlist {
+  color: #808dad;
 }
 
-.navigation{
+.navigation {
   position: fixed;
-  background-color:#0E1630 ;
+  background-color: #0e1630;
   transition: 0.2s;
   box-shadow: 1px 1px 1.1em orangered;
 }
 
-.me-auto{
+.me-auto {
   margin-left: 40rem;
   gap: 4rem;
   color: white;
 }
 
-button.navbar-toggler, button.navbar-toggler.collapsed{
-  background-color:#28324e;
+button.navbar-toggler,
+button.navbar-toggler.collapsed {
+  background-color: #28324e;
 }
 
 /* Home Page design */
-.fg-theme{
+.fg-theme {
   color: red;
 }
 
-.caption-header{
+.caption-header {
   margin-top: 10em;
   margin-left: 5rem;
-  color:white;
+  color: white;
 }
 
-.home-hd{
+.home-hd {
   font-size: 2em;
 }
-.name-hd{
-  color: #04A950;
+.name-hd {
+  color: #04a950;
 }
 
-#home h2{
+#home h2 {
   font-size: 3.5em;
 }
 
-
 /* About page design */
-#about{
+#about {
   display: block;
   width: 100%;
   margin-top: 20em;
 }
 
-.about-title{
-  color: #04A950;
-  background-color: #171F38;
-  border: 1px solid  #04A950;
-  border-bottom-right-radius:1em;
-  border-top-left-radius:1em;
+.about-title {
+  color: #04a950;
+  background-color: #171f38;
+  border: 1px solid #04a950;
+  border-bottom-right-radius: 1em;
+  border-top-left-radius: 1em;
 }
 
-.theme-list{
+.theme-list {
   color: white;
 }
 
-.color-white{
+.color-white {
   color: white;
 }
 
-.color-blue{
-  color:#808DAD;
+.color-blue {
+  color: #808dad;
 }
 
-.color-green{
-  color: #04A950;
+.color-green {
+  color: #04a950;
 }
 
-.fw-normal{
+.fw-normal {
   color: #04b054;
-  background-color: #171F38;
-  border: 1px solid  #04A950;
+  background-color: #171f38;
+  border: 1px solid #04a950;
   text-align: center;
   height: 1.5em;
   width: 10em;
   border-radius: 20px;
 }
 
-
 /* Skill page design */
-.skill-details{
-  color: #04A950;
-  background-color: #171F38;
-  border: 1px solid  #04A950;
-  border-bottom-right-radius:1em;
-  border-top-left-radius:1em;
-  font-size: 1.8em;
-  margin-top:5em;
-}
-
-.progress-wrapper{
-  margin-top: 3em;
-}
-
-
-/* Project page design */
-.project-details{
-  color: #04A950;
-  background-color: #171F38;
-  border: 1px solid  #04A950;
-  border-bottom-right-radius:1em;
-  border-top-left-radius:1em;
+.skill-details {
+  color: #04a950;
+  background-color: #171f38;
+  border: 1px solid #04a950;
+  border-bottom-right-radius: 1em;
+  border-top-left-radius: 1em;
   font-size: 1.8em;
   margin-top: 5em;
 }
 
-.card-box{
+.progress-wrapper {
+  margin-top: 3em;
+}
+
+/* Project page design */
+.project-details {
+  color: #04a950;
+  background-color: #171f38;
+  border: 1px solid #04a950;
+  border-bottom-right-radius: 1em;
+  border-top-left-radius: 1em;
+  font-size: 1.8em;
+  margin-top: 5em;
+}
+
+.card-box {
   height: 25em;
-  background-color: #171F38;
+  background-color: #171f38;
   border: 1px solid yellow;
   border-radius: 1em;
   transition: height 2s;
-  transition-timing-function:ease-in-out;
+  transition-timing-function: ease-in-out;
 }
 
-.proj-hd{
-  color:#01D293;
+.proj-hd {
+  color: #01d293;
   font-size: 1.5em;
   text-align: center;
   margin: 5px;
   border-radius: 16px;
 }
 
-.proj-img{
+.proj-img {
   width: 12em;
   height: 12em;
   margin: 2px;
 }
 
-.proj-button{
-  display:none;
+.proj-button {
+  display: none;
   text-align: center;
 }
 
-.card-box:hover{
+.card-box:hover {
   height: 26em;
 }
 
-.card-box:hover .proj-button{
-  display:block;
+.card-box:hover .proj-button {
+  display: block;
 }
 
-
 /* Contact page design*/
-.contact-hd{
-  color: #04A950;
-  background-color: #171F38;
-  border: 1px solid  #04A950;
-  border-bottom-right-radius:1em;
-  border-top-left-radius:1em;
+.contact-hd {
+  color: #04a950;
+  background-color: #171f38;
+  border: 1px solid #04a950;
+  border-bottom-right-radius: 1em;
+  border-top-left-radius: 1em;
   font-size: 1.8em;
   margin-top: 5em;
 }
 
-.contact-info{
+.contact-info {
   width: 100%;
   height: 15em;
   margin-top: 2em;
-  background-color: #171F38 ;
+  background-color: #171f38;
   border: 1px solid yellow;
   border-radius: 10px;
   display: flex;
@@ -197,26 +193,25 @@ button.navbar-toggler, button.navbar-toggler.collapsed{
   flex-wrap: wrap;
 }
 
-.mobile-details{
+.mobile-details {
   font-size: 1em;
   color: white;
   margin-left: 1.2em;
 }
 
-.mail-details{
+.mail-details {
   font-size: 1em;
   color: white;
   margin-left: 1em;
   margin-top: 1em;
 }
 
-
-.img-details{
+.img-details {
   width: 1.5em;
   height: 1.5em;
   margin: 1em;
 }
 
-.media-link img:hover{
+.media-link img:hover {
   box-shadow: 1px 1px 1.1em gray;
 }
