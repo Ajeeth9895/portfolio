@@ -49,7 +49,7 @@ function Contact() {
           <div className="mail-details">
             <span className="color-green">Mail:</span>
             <br />
-            ajeethkumar.gopal@gmail.com
+            ajeethkumar.vishnupriya@gmail.com
           </div>
         </div>
 
