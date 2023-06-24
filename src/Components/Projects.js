@@ -1,5 +1,5 @@
 import React from "react";
-import Pokemon from "../Asset/img/pokemon.png";
+import Pizza from "../Asset/img/pizza-banner.jpg";
 import weather from "../Asset/img/weather.png";
 import Postalcode from "../Asset/img/Postalcode.png";
 import { Button } from "react-bootstrap";
@@ -7,81 +7,143 @@ import { CodeUrl } from "./CodeUrl";
 
 function Projects() {
   return (
-      //  <--Project details--> 
+    //  <--Project details--> 
     <div className="projects-d py-1" id="Projects">
       <div className="container-fluid">
         <div className="text-center">
           <div className="project-details">Projects</div>
         </div>
-        <div className="row post-grid d-flex justify-content-center ">
+        <div className="row post-grid d-flex justify-content-center">
 
-          {/* <--Pokemon project details-->  */}
-          <div className="col-md-6 col-lg-2  card-box my-5 mx-4">
-            <div className="proj-hd">Pokemon</div>
-            <div className="d-flex justify-content-center my-5">
-              <img src={Pokemon} className="proj-img" alt="" />
-            </div>
-            <div className="proj-button">
-              <a href={CodeUrl.pokemonGit} target={CodeUrl.blank}>
-                <Button type="button" variant="outline-success">
-                  Source
-                </Button>
-              </a>
-              <a
-                href={CodeUrl.pokemonDeploy}
-                target={CodeUrl.blank}
-                className="m-2"
-              >
-                <Button type="button" variant="outline-success">
-                  Deploy
-                </Button>
-              </a>
+          {/* pizza delivery app */}
+          <div class="wrapper mt-5">
+            <div class="card"><img src={Pizza} alt="" />
+              <div class="info">
+                <h1>Pizza-Hot</h1>
+                <p>In this project i have used react,nodejs,express,mongodb and nodemailer</p>
+                <hr />
+                <a href={CodeUrl.pizzaDeploy} target={CodeUrl.blank}>
+                  <Button type="button" variant="danger">
+                    Deploy
+                  </Button>
+                </a>
+                <a href={CodeUrl.pizzaFrontend} target={CodeUrl.blank} >
+                  <Button type="button" variant="danger" className="m-1">
+                    Source-frontend
+                  </Button>
+                </a>
+                <a href={CodeUrl.pizzaBackend} target={CodeUrl.blank}>
+                  <Button type="button" variant="danger">
+                    Source-backend
+                  </Button>
+                </a>
+              </div>
             </div>
           </div>
 
-           {/* <--Weather project details-->  */}
-          <div className="col-md-6 col-lg-2 card-box my-5 mx-4">
-            <div className="proj-hd">Weather</div>
-            <div className="d-flex justify-content-center my-5">
-              <img src={weather} className="proj-img" alt="" />
-            </div>
-            <div className="proj-button">
-              <a href={CodeUrl.weatherGit} target={CodeUrl.blank}>
-                <Button type="button" variant="outline-success">
-                  Source
-                </Button>
-              </a>
-              <a
-                href={CodeUrl.weatherDeploy}
-                target={CodeUrl.blank}
-                className="m-2"
-              >
-                <Button type="button" variant="outline-success">
-                  Deploy
-                </Button>
-              </a>
+
+          {/* Instagram clone app */}
+          <div class="wrapper mt-5">
+            <div class="card"><img src="https://cmgventures.com/wp-content/uploads/2018/04/instagram-banner-01.png" alt="" />
+              <div class="info">
+                <h1>Instagram-Clone</h1>
+                <p>In this project i have used react-js,node-js,express-js,mongodb,firebase and cloudinary-api</p>
+                <hr />
+                <a href={CodeUrl.instagramDeploy} target={CodeUrl.blank}>
+                  <Button type="button" variant="danger">
+                    Deploy
+                  </Button>
+                </a>
+                <a href={CodeUrl.instagramFrontend} target={CodeUrl.blank} >
+                  <Button type="button" variant="danger" className="m-1">
+                    Source-frontend
+                  </Button>
+                </a>
+                <a href={CodeUrl.instagramBackend} target={CodeUrl.blank}>
+                  <Button type="button" variant="danger">
+                    Source-backend
+                  </Button>
+                </a>
+              </div>
             </div>
           </div>
 
-           {/* <--Postal Code project details-->  */}
-          <div className="col-md-6 col-lg-2  card-box my-5 mx-4">
-            <div className="proj-hd">Postal code</div>
-            <div className="d-flex justify-content-center my-5">
-              <img src={Postalcode} className="proj-img" alt="" />
-            </div>
-            <div className="proj-button">
-              <a href={CodeUrl.pincodeGit} target={CodeUrl.blank}>
-                <Button type="button" variant="outline-success">
-                  Source
-                </Button>
-              </a>
-              <a href={CodeUrl.pincodeDeploy} target={CodeUrl.blank} className="m-2">
-                <Button type="button" variant="outline-success">
-                  Deploy
-                </Button>
-              </a>
+
+          {/* Whatsapp clone*/}
+          <div class="wrapper mt-5">
+            <div class="card"><img src="https://images.fonearena.com/blog/wp-content/uploads/2022/03/Whatsapp-1024x576.jpg" alt="" />
+              <div class="info">
+                <h1>Whatsapp-Clone</h1>
+                <p>In this project i have used react-js,node-js,express-j, mongodb, firebase,pusher sand materialUi</p>
+                <hr />
+                <a href={CodeUrl.whatsappDeploy} target={CodeUrl.blank}>
+                  <Button type="button" variant="danger">
+                    Deploy
+                  </Button>
+                </a>
+                <a href={CodeUrl.whatsappFrontend} target={CodeUrl.blank} >
+                  <Button type="button" variant="danger" className="m-1">
+                    Source-frontend
+                  </Button>
+                </a>
+                <a href={CodeUrl.whatsappBackend} target={CodeUrl.blank}>
+                  <Button type="button" variant="danger">
+                    Source-backend
+                  </Button>
+                </a>
+              </div>
             </div>
           </div>
+
+
+          {/* Netflix clone*/}
+          <div class="wrapper mt-5">
+            <div class="card"><img src="https://www.unews.com.lb/wp-content/uploads/2022/03/Banner2.jpg" alt="" />
+              <div class="info">
+                <h1>Netflix-Clone</h1>
+                <p>In this project i have used react-js,Tmdb-api,firebase,reactYoutube and movieTrailer</p>
+                <hr />
+                <a href={CodeUrl.netflixDeploy} target={CodeUrl.blank}>
+                  <Button type="button" variant="danger">
+                    Deploy
+                  </Button>
+                </a>
+                <a href={CodeUrl.netflixFrontend} target={CodeUrl.blank} >
+                  <Button type="button" variant="danger" className="m-1">
+                    Source-frontend
+                  </Button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+
+          {/* Rentify app*/}
+          <div class="wrapper mt-5">
+            <div class="card"><img src="https://www.pngitem.com/pimgs/m/506-5068178_home-appliances-banner-png-transparent-png.png" alt="" />
+              <div class="info">
+                <h1>Rentify App</h1>
+                <p>In this project i have used react-js,node-js,express-js,mongodb, datepicker and nodemailer</p>
+                <hr />
+                <a href={CodeUrl.rentifyDeploy} target={CodeUrl.blank}>
+                  <Button type="button" variant="danger">
+                    Deploy
+                  </Button>
+                </a>
+                <a href={CodeUrl.rentifyFrontend} target={CodeUrl.blank} >
+                  <Button type="button" variant="danger" className="m-1">
+                    Source-frontend
+                  </Button>
+                </a>
+                <a href={CodeUrl.rentifyBackend} target={CodeUrl.blank}>
+                  <Button type="button" variant="danger">
+                    Source-backend
+                  </Button>
+                </a>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>

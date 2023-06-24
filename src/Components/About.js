@@ -12,9 +12,9 @@ function About() {
           <h1 className="fw-white" style={{ color: "white" }}>
             Ajeeth Kumar G
           </h1>
-          <h5 className="color-blue mb-3">Full Stack developer</h5>
+          <h5 className="color-blue mb-3">Full stack developer</h5>
           <p className="" style={{ color: "white" }}>
-            Passionate software engineer with 1 year of professional experience
+            Passionate software engineer with 1.6 year's of professional experience
             building web application.
           </p>
           <ul className="theme-list">
@@ -63,7 +63,7 @@ function About() {
             </ul>
           </div>
 
-           {/* <--Experience details-->  */}
+          {/* <--Experience details-->  */}
           <div
             className="col-md-6 wow fadeInRight color-white"
             data-wow-delay="200ms"
