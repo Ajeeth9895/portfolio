@@ -33,7 +33,7 @@ export const CodeUrl = {
     blank: "_blank",
 
     //resume urls
-    resume: "https://drive.google.com/file/d/1bTU220mVR_5az1xpk28tiAJCwZtbcgPw/view?usp=drive_link"
+    resume: "https://drive.google.com/file/d/1oA3tgv8l3btIJybZo3Z2JgsQu9LSMVPZ/view?usp=drive_link"
 }
 
 
