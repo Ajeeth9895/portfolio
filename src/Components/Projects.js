@@ -1,7 +1,9 @@
 import React from "react";
 import Pizza from "../Asset/img/pizza-banner.jpg";
-import weather from "../Asset/img/weather.png";
-import Postalcode from "../Asset/img/Postalcode.png";
+import InstagramBanner from "../Asset/img/instagram-banner.png";
+import whatsappBanner from "../Asset/img/whatsapp-banner.jpg";
+import netflixBanner from "../Asset/img/netflix-banner.jpg";
+import rentifyBanner from "../Asset/img/rental-banner.png";
 import { Button } from "react-bootstrap";
 import { CodeUrl } from "./CodeUrl";
 
@@ -44,7 +46,7 @@ function Projects() {
 
           {/* Instagram clone app */}
           <div class="wrapper mt-5">
-            <div class="card"><img src="https://cmgventures.com/wp-content/uploads/2018/04/instagram-banner-01.png" alt="" />
+            <div class="card"><img src={InstagramBanner} alt="" />
               <div class="info">
                 <h1>Instagram-Clone</h1>
                 <p>In this project i have used react-js,node-js,express-js,mongodb,firebase and cloudinary-api</p>
@@ -71,7 +73,7 @@ function Projects() {
 
           {/* Whatsapp clone*/}
           <div class="wrapper mt-5">
-            <div class="card"><img src="https://images.fonearena.com/blog/wp-content/uploads/2022/03/Whatsapp-1024x576.jpg" alt="" />
+            <div class="card"><img src={whatsappBanner} alt="" />
               <div class="info">
                 <h1>Whatsapp-Clone</h1>
                 <p>In this project i have used react-js,node-js,express-j, mongodb, firebase,pusher sand materialUi</p>
@@ -98,7 +100,7 @@ function Projects() {
 
           {/* Netflix clone*/}
           <div class="wrapper mt-5">
-            <div class="card"><img src="https://www.unews.com.lb/wp-content/uploads/2022/03/Banner2.jpg" alt="" />
+            <div class="card"><img src={netflixBanner} alt="" />
               <div class="info">
                 <h1>Netflix-Clone</h1>
                 <p>In this project i have used react-js,Tmdb-api,firebase,reactYoutube and movieTrailer</p>
@@ -120,7 +122,7 @@ function Projects() {
 
           {/* Rentify app*/}
           <div class="wrapper mt-5">
-            <div class="card"><img src="https://www.pngitem.com/pimgs/m/506-5068178_home-appliances-banner-png-transparent-png.png" alt="" />
+            <div class="card"><img src={rentifyBanner} alt="" />
               <div class="info">
                 <h1>Rentify App</h1>
                 <p>In this project i have used react-js,node-js,express-js,mongodb, datepicker and nodemailer</p>

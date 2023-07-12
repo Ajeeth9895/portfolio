@@ -59,14 +59,8 @@ function Contact() {
         <div className="social-media col-md-6 col-lg-3 ">
           <h4 className="color-blue">Get in touch</h4>
           <div className="media-link">
-            <a href={CodeUrl.instagram} target={CodeUrl.blank}>
-              <img src={Instagram} className="img-details" alt="" />
-            </a>
             <a href={CodeUrl.githubUrl} target={CodeUrl.blank}>
               <img src={Github} className="img-details" alt="" />
-            </a>
-            <a href={CodeUrl.linkedinUrl} target={CodeUrl.blank}>
-              <img src={linkedin} className="img-details" alt="" />
             </a>
           </div>
         </div>
