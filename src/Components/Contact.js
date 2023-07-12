@@ -44,12 +44,12 @@ function Contact() {
           <div className="mobile-details">
             <span className="color-green">Mobile:</span>
             <br />
-            +91 6382862595, 8098333881
+            +91 6382862595
           </div>
           <div className="mail-details">
             <span className="color-green">Mail:</span>
             <br />
-            ajeethkumar.vishnupriya@gmail.com
+            ajeethkumar.gopal@gmail.com
           </div>
         </div>
 
