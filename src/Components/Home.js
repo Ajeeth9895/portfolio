@@ -1,5 +1,5 @@
 import React from "react";
-import Resume from "../Asset/cv/Ajeeth-resume.pdf";
+
 
 function Home() {
   return (
@@ -10,18 +10,14 @@ function Home() {
         <h2>
           I'm <span className="name-hd">Ajeeth</span> Kumar G
         </h2>
-        <h4 className="stack-hd">full stack developer</h4>
-        <a href={Resume} download="Resume">
-          {/* <button type="button" className="btn btn-danger btn-lg btn-block">
-             Download Cv
-           </button> */}
+        <h4 className="stack-hd">Full Stack Developer</h4>
+        <a href="#contact">
           <button class="button">
             <span class="button_lg">
               <span class="button_sl"></span>
-              <span class="button_text">Download CV</span>
+              <span class="button_text">Hire Me</span>
             </span>
           </button>
-
         </a>
       </div>
     </div>

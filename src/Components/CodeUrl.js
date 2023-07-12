@@ -30,7 +30,10 @@ export const CodeUrl = {
     instagram: "https://www.instagram.com/",
     githubUrl: "https://github.com/Ajeeth9895",
     linkedinUrl: "https://www.linkedin.com/",
-    blank: "_blank"
+    blank: "_blank",
+
+    //resume urls
+    resume: "https://drive.google.com/file/d/1bTU220mVR_5az1xpk28tiAJCwZtbcgPw/view?usp=drive_link"
 }
 
 

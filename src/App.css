@@ -129,9 +129,9 @@ button.navbar-toggler.collapsed {
 }
 
 .skill-box {
-  height: 9em;
+  height: 5em;
   width: 9em;
-  background-color: #171f38;
+  background-color: #dadade;
   border: none;
   border-radius: 1em;
 }
@@ -141,8 +141,8 @@ button.navbar-toggler.collapsed {
 }
 
 .skill-img {
-  width: 7em;
-  height: 6em;
+  width: 10em;
+  height: 5em;
   border-radius: 1em;
 }
 

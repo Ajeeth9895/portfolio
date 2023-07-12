@@ -1,18 +1,18 @@
 import React from 'react';
-import HTML from "../Asset/img/html.jpeg"
-import CSS from "../Asset/img/css.jpeg"
-import JavaScript from "../Asset/img/javascript.jpeg"
-import Bootstrap from "../Asset/img/bootstrap.jpeg"
-import mongodb from "../Asset/img/mongodb.jpeg"
-import expressLogo from "../Asset/img/express.jpeg"
-import nodejs from "../Asset/img/nodejs.jpeg"
-import ReactImg from "../Asset/img/react.jpeg"
-import javaImg from "../Asset/img/java.png"
-import aws from "../Asset/img/aws.jpeg"
-import github from "../Asset/img/github.jpeg"
-import firebase from "../Asset/img/firebase.jpeg"
-import pusher from "../Asset/img/pusher.jpeg"
-import reactBootstrapLogo from "../Asset/img/reactbootstrap.jpeg"
+import HTML from "../Asset/img/html-logo.svg"
+import CSS from "../Asset/img/css-logo.svg"
+import JavaScript from "../Asset/img/javascript-logo.svg"
+import Bootstrap from "../Asset/img/bootstrap-logo.svg"
+import mongodb from "../Asset/img/mongo-db.svg"
+import expressLogo from "../Asset/img/expres-js.png"
+import nodejs from "../Asset/img/node-logo.svg"
+import ReactImg from "../Asset/img/react.svg"
+import javaImg from "../Asset/img/java-logo.png"
+import aws from "../Asset/img/aws.svg"
+import github from "../Asset/img/github-logo.svg"
+import firebase from "../Asset/img/firebase.svg"
+import pusher from "../Asset/img/pusher.png"
+import reactBootstrapLogo from "../Asset/img/react-bootstrap.png"
 
 
 
@@ -118,86 +118,86 @@ function Skill() {
             </div>
           </div> */}
           <div className="col-md-6 col-lg-2  skill-box my-5 mx-4">
-            <div className="d-flex justify-content-center my-4">
+            <div className="d-flex justify-content-center">
               <img src={HTML} className="skill-img" alt="" />
             </div>
           </div>
 
           <div className="col-md-6 col-lg-2  skill-box my-5 mx-4">
-            <div className="d-flex justify-content-center my-4">
+            <div className="d-flex justify-content-center">
               <img src={CSS} className="skill-img" alt="" />
             </div>
           </div>
 
           <div className="col-md-6 col-lg-2  skill-box my-5 mx-4">
-            <div className="d-flex justify-content-center my-4">
+            <div className="d-flex justify-content-center ">
               <img src={JavaScript} className="skill-img" alt="" />
             </div>
           </div>
 
           <div className="col-md-6 col-lg-2  skill-box my-5 mx-4">
-            <div className="d-flex justify-content-center my-4">
+            <div className="d-flex justify-content-center ">
               <img src={Bootstrap} className="skill-img" alt="" />
             </div>
           </div>
 
           <div className="col-md-6 col-lg-2  skill-box my-5 mx-4">
-            <div className="d-flex justify-content-center my-4 ">
+            <div className="d-flex justify-content-center ">
               <img src={ReactImg} className="skill-img" alt="" />
             </div>
           </div>
 
           <div className="col-md-6 col-lg-2  skill-box my-5 mx-4 ">
-            <div className="d-flex justify-content-center my-4">
+            <div className="d-flex justify-content-center ">
               <img src={expressLogo} className="skill-img" alt="" />
             </div>
           </div>
 
           <div className="col-md-6 col-lg-2  skill-box my-5 mx-4">
-            <div className="d-flex justify-content-center my-4">
+            <div className="d-flex justify-content-center ">
               <img src={mongodb} className="skill-img" alt="" />
             </div>
           </div>
 
           <div className="col-md-6 col-lg-2  skill-box my-5 mx-4">
-            <div className="d-flex justify-content-center my-4">
+            <div className="d-flex justify-content-center ">
               <img src={nodejs} className="skill-img" alt="" />
             </div>
           </div>
 
           <div className="col-md-6 col-lg-2  skill-box my-5 mx-4">
-            <div className="d-flex justify-content-center my-4">
+            <div className="d-flex justify-content-center ">
               <img src={javaImg} className="skill-img" alt="" />
             </div>
           </div>
 
 
           <div className="col-md-6 col-lg-2  skill-box my-5 mx-4">
-            <div className="d-flex justify-content-center my-4">
+            <div className="d-flex justify-content-center ">
               <img src={aws} className="skill-img" alt="" />
             </div>
           </div>
 
           <div className="col-md-6 col-lg-2  skill-box my-5 mx-4">
-            <div className="d-flex justify-content-center my-4">
+            <div className="d-flex justify-content-center ">
               <img src={github} className="skill-img" alt="" />
             </div>
           </div>
 
           <div className="col-md-6 col-lg-2  skill-box my-5 mx-4">
-            <div className="d-flex justify-content-center my-4">
+            <div className="d-flex justify-content-center ">
               <img src={firebase} className="skill-img" alt="" />
             </div>
           </div>
 
           <div className="col-md-6 col-lg-2  skill-box my-5 mx-4">
-            <div className="d-flex justify-content-center my-4">
+            <div className="d-flex justify-content-center ">
               <img src={pusher} className="skill-img" alt="" />
             </div>
           </div>
 
           <div className="col-md-6 col-lg-2  skill-box my-5 mx-4 ">
-            <div className="d-flex justify-content-center my-4">
+            <div className="d-flex justify-content-center ">
               <img src={reactBootstrapLogo} className="skill-img" alt="" />
             </div>
           </div>
