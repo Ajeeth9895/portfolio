@@ -33,19 +33,19 @@ function Navigation() {
               style={{ maxHeight: "10em", gap: "3em" }}
               navbarScroll
             >
-              <Nav.Link href="#home" style={{ color: "#808DAD" }}>
+              <Nav.Link href="#home" style={{ color: "white" }}>
                 Home
               </Nav.Link>
-              <Nav.Link href="#about" style={{ color: "#808DAD" }}>
+              <Nav.Link href="#about" style={{ color: "white" }}>
                 About
               </Nav.Link>
-              <Nav.Link href="#Skills" style={{ color: "#808DAD" }}>
+              <Nav.Link href="#Skills" style={{ color: "white" }}>
                 Skills
               </Nav.Link>
-              <Nav.Link href="#Projects" style={{ color: "#808DAD" }}>
+              <Nav.Link href="#Projects" style={{ color: "white" }}>
                 Projects
               </Nav.Link>
-              <Nav.Link href="#contact" style={{ color: "#808DAD" }}>
+              <Nav.Link href="#contact" style={{ color: "white" }}>
                 Contact
               </Nav.Link>
             </Nav>

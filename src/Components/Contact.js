@@ -52,9 +52,6 @@ function Contact() {
             ajeethkumar.gopal@gmail.com
           </div>
         </div>
-
-
-
         {/* <--Media link details-->  */}
         <div className="social-media col-md-6 col-lg-3 ">
           <h4 className="color-blue">Get in touch</h4>

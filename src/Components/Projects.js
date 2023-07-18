@@ -21,7 +21,7 @@ function Projects() {
           <div class="wrapper mt-5">
             <div class="card"><img src={Pizza} alt="" />
               <div class="info">
-                <h1>Pizza-Hot</h1>
+                <h1>Pizza-Delivery App</h1>
                 <p>In this project i have used react,nodejs,express,mongodb and nodemailer</p>
                 <hr />
                 <a href={CodeUrl.pizzaDeploy} target={CodeUrl.blank}>
@@ -48,7 +48,7 @@ function Projects() {
           <div class="wrapper mt-5">
             <div class="card"><img src={InstagramBanner} alt="" />
               <div class="info">
-                <h1>Instagram-Clone</h1>
+                <h1>Social-Media App</h1>
                 <p>In this project i have used react-js,node-js,express-js,mongodb,firebase and cloudinary-api</p>
                 <hr />
                 <a href={CodeUrl.instagramDeploy} target={CodeUrl.blank}>
@@ -75,7 +75,7 @@ function Projects() {
           <div class="wrapper mt-5">
             <div class="card"><img src={whatsappBanner} alt="" />
               <div class="info">
-                <h1>Whatsapp-Clone</h1>
+                <h1>Chat App</h1>
                 <p>In this project i have used react-js,node-js,express-j, mongodb, firebase,pusher sand materialUi</p>
                 <hr />
                 <a href={CodeUrl.whatsappDeploy} target={CodeUrl.blank}>
@@ -102,7 +102,7 @@ function Projects() {
           <div class="wrapper mt-5">
             <div class="card"><img src={netflixBanner} alt="" />
               <div class="info">
-                <h1>Netflix-Clone</h1>
+                <h1>Movie App</h1>
                 <p>In this project i have used react-js,Tmdb-api,firebase,reactYoutube and movieTrailer</p>
                 <hr />
                 <a href={CodeUrl.netflixDeploy} target={CodeUrl.blank}>
@@ -124,7 +124,7 @@ function Projects() {
           <div class="wrapper mt-5">
             <div class="card"><img src={rentifyBanner} alt="" />
               <div class="info">
-                <h1>Rentify App</h1>
+                <h1>Rental App</h1>
                 <p>In this project i have used react-js,node-js,express-js,mongodb, datepicker and nodemailer</p>
                 <hr />
                 <a href={CodeUrl.rentifyDeploy} target={CodeUrl.blank}>

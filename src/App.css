@@ -4,13 +4,22 @@
   box-sizing: border-box;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 .home {
   width: 100%;
-  background-size: cover;
   background-color: #0e1630;
+}
+
+.home_header {
+  background-image: url("./Asset/img/banner-portfolio.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
   background-position: center;
-  scroll-behavior: smooth;
+  width: 100vw;
+  height: 100vh;
 }
 
 /* Navigation  */
@@ -55,8 +64,8 @@ button.navbar-toggler.collapsed {
 }
 
 .caption-header {
-  margin-top: 10em;
-  margin-left: 5rem;
+  margin-top: 15em;
+  margin-left: -55em;
   color: white;
 }
 
@@ -64,7 +73,7 @@ button.navbar-toggler.collapsed {
   font-size: 2em;
 }
 .name-hd {
-  color: #04a950;
+  color: #f64c08;
 }
 
 #home h2 {
@@ -73,13 +82,26 @@ button.navbar-toggler.collapsed {
 
 /* About page design */
 #about {
-  display: block;
   width: 100%;
   margin-top: 20em;
+  position: relative;
+}
+
+.about_banner {
+  position: absolute;
+  left: 800px;
+  width: 100px;
+  height: 100px;
+}
+
+.about_image {
+  width: 600px;
+  height: 600px;
+  border-radius: 2em;
 }
 
 .about-title {
-  color: #04a950;
+  color: #f64c08;
   background-color: #171f38;
   border: none;
   border-radius: 1em;
@@ -98,11 +120,11 @@ button.navbar-toggler.collapsed {
 }
 
 .color-green {
-  color: #04a950;
+  color: #f64c08;
 }
 
 .fw-normal {
-  color: #04b054;
+  color: #f64c08;
   background-color: #171f38;
   border: 1px solid #04a950;
   text-align: center;
@@ -113,7 +135,7 @@ button.navbar-toggler.collapsed {
 
 /* Skill page design */
 .skill-details {
-  color: #04a950;
+  color: #f64c08;
   background-color: #171f38;
   border: none;
   border-radius: 1em;
@@ -121,17 +143,21 @@ button.navbar-toggler.collapsed {
   margin-top: 5em;
 }
 
-.skill-content {
+.skill_content {
+  width: 100vw;
+}
+
+.skill_body {
+  width: 800px;
   display: flex;
-  justify-content: space-between;
-  gap: 10em;
-  padding-left: 5em;
+  flex-wrap: wrap;
+  margin-left: 700px;
 }
 
 .skill-box {
-  height: 5em;
-  width: 9em;
-  background-color: #dadade;
+  width: 8em;
+  height: 3em;
+  background-color: #f3f4f7;
   border: none;
   border-radius: 1em;
 }
@@ -141,14 +167,26 @@ button.navbar-toggler.collapsed {
 }
 
 .skill-img {
-  width: 10em;
-  height: 5em;
+  width: 8em;
+  height: 3em;
   border-radius: 1em;
+}
+
+.skill_banner {
+  width: 100px;
+  height: 100px;
+  margin-left: 2em;
+}
+
+.skill_image {
+  width: 600px;
+  height: 600px;
+  border-radius: 2em;
 }
 
 /* Project page design */
 .project-details {
-  color: #04a950;
+  color: #f64c08;
   background-color: #171f38;
   border: none;
   border-radius: 1em;
@@ -194,7 +232,7 @@ button.navbar-toggler.collapsed {
 
 /* Contact page design*/
 .contact-hd {
-  color: #04a950;
+  color: #f64c08;
   background-color: #171f38;
   border: none;
   border-radius: 1em;
